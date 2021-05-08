@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Submission</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">With_CardView</string>
+    <string name="Nama_Barang">Nama Barang</string>
+    <string name="Detail_Barang">Detail Barang</string>
+    <string name="Xiaomi_Phone">Xiaomi Phone</string>
+    <string name="price_product">Price Product</string>
+    <string name="stock">Stock UNLIMITED</string>
+    <string name="content_text">Content</string>
+    <string name="specification">Spesification</string>
+    <string name="spalshTitle">  INI SPLASH SCREEN \n Bojomu Semangatku \n ~LOS DOL~</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="ini_profile"> Diky Nugraha Difiera </string>
+    <string name="display">Display</string>
+    <string name="content_specs_display">Content Specs Display</string>
+    <string name="size">Size</string>
+    <string name="content_specs_size">Content Spec Size</string>
+    <string name="battery">Battery</string>
+    <string name="content_specs_battery">Content Spec Battery</string>
+    <string name="Email">diky1800018380@webmail.uad.ac.id</string>
+</resources>

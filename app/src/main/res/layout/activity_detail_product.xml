@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".DetailProduct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_move"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                tools:src="@android:color/lighter_gray" />
+
+            <TextView
+                android:id="@+id/product_name"
+                style="@style/TextContent.Small.White"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#4D000000"
+                android:drawableStart="@drawable/ic_collections_white_18dp"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                tools:text="@string/Xiaomi_Phone"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/priceProduct"
+            style="@style/TextContent.Black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            tools:text="@string/price_product"
+            android:textSize="32sp" />
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="16dp"
+            android:text="@string/stock" />
+
+        <TextView
+            android:id="@+id/productDesc"
+            style="@style/TextContent"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/content_text"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="8dp"
+            android:text="@string/specification" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/display" />
+
+                <TextView
+                    android:id="@+id/contentSpecDisplay"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_display" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/size" />
+
+                <TextView
+                    android:id="@+id/contentSpecSize"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_size" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/battery" />
+
+                <TextView
+                    android:id="@+id/contentSpecBaterry"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_battery" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
